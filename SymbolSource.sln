@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymbolSource.Portal", "SymbolSource.Portal\SymbolSource.Portal.csproj", "{ABE8960A-452E-454B-8A66-1C3A9F9110AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymbolSource.Server", "SymbolSource.Server\SymbolSource.Server.csproj", "{0F4F8F92-00C2-448B-AD81-D0375E48AEDE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{34A89BAF-252E-4155-8D93-7F7017699EDC} = {34A89BAF-252E-4155-8D93-7F7017699EDC}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymbolSource.Processor", "SymbolSource.Processor\SymbolSource.Processor.csproj", "{F133E18B-E355-4112-B6AB-00255598251A}"
 EndProject
