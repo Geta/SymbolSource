@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SymbolSource.Server</id>
+    <version>$version$</version>
+    <authors>Geta AS</authors>
+    <owners>Geta AS</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The SymbolSource.Server deployment package</description>
+    <copyright>Copyright 2018</copyright>
+  </metadata>
+  <files>
+    <file src="..\SymbolSource.Processor.Console\bin\Release\**\*.*" target="App_Data\jobs\continuous\SymbolSource.Processor.Console" />
+  </files>
+</package>

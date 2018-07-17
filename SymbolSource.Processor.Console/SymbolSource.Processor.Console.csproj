@@ -135,7 +135,10 @@
     <Content Include="setttings.json">
       <SubType>Designer</SubType>
     </Content>
-    <None Include="app.config" />
+    <Content Include="app.config" />
+    <Content Include="app.Geta.Production.config">
+      <DependentUpon>app.config</DependentUpon>
+    </Content>
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
